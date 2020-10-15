@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/backprew6"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/button_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button_stroke_style_press_bw"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textSize="40dp"
+            android:textColor="@color/black95"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textColor="@color/black95"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            >
+
+    </TextView>
+        
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="90"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textdescriptionEnd"
+                android:text="@string/levelsixend"
+                android:textColor="@color/black95"
+                android:textSize="20dp"
+                android:fontFamily="@font/love_ya_like_a_sister"
+                android:textStyle="bold"
+                />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/button_stroke_style_press_bw"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:text="&#8634;"
+            android:textColor="@color/black95"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/end"
+            android:layout_width="128dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_stroke_style_press_bw"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:text="@string/end"
+            android:textStyle="bold"
+            android:textColor="@color/black95"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

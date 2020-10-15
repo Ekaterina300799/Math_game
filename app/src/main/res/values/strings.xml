@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">math_game</string>
+    <string name="fon">TODO</string>
+    <string name="start">start</string>
+    <string name="back">back</string>
+    <string name="close">X</string>
+    <string name="level1">level 1</string>
+    <string name="answerA">A</string>
+    <string name="answerB">B</string>
+    <string name="answerC">C</string>
+    <string name="answerD">D</string>
+    <string name="level2">level 2:</string>
+    <string name="level3">level 3:</string>
+    <string name="level4">level 4:</string>
+    <string name="level5">level 5:</string>
+    <string name="level6">level 6:</string>
+    <string name="count">1/10</string>
+    <string name="textcontinue">continue</string>
+    <string name="end">END</string>
+    <string name="score">0/10</string>
+</resources>

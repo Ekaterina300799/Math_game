@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_level4"
+    tools:context=".Level4">
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_stroke_style_press_bw"
+                    android:textColor="@color/black95"
+                    android:layout_marginRight="190dp"
+                    android:textStyle="bold"
+                    android:text="@string/back"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/love_ya_like_a_sister"/>
+
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/level4"
+                    android:textStyle="bold"
+                    android:textColor="@color/black95"
+                    android:textAllCaps="true"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/love_ya_like_a_sister"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/count"
+                    android:textStyle="bold"
+                    android:textColor="@color/black95"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="300dp"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/love_ya_like_a_sister"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="20"
+                    android:background="@drawable/sloi_question"
+                    android:textSize="70dp"
+                    android:textColor="@color/violet"
+                    android:fontFamily="@font/love_ya_like_a_sister"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/buttonA"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sloi2"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColor="@color/yellow"
+                    android:fontFamily="@font/love_ya_like_a_sister"
+                    android:text="@string/answerA"
+                    android:textSize="200dp" />
+
+                    <Button
+                        android:id="@+id/buttonB"
+                        android:background="@drawable/sloi2"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="#FFFFFF"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/love_ya_like_a_sister"
+                        android:text="@string/answerB"
+                        android:textColor="@color/yellow"
+                        android:textSize="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black95"
+                    android:textSize="25dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/love_ya_like_a_sister"
+                    android:gravity="center"
+                    android:text="TextView" />
+                <TextView
+                    android:id="@+id/textB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/black95"
+                    android:fontFamily="@font/love_ya_like_a_sister"
+                    android:textSize="25dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="TextView" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

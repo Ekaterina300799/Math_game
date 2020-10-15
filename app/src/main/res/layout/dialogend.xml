@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/backprew1"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/button_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="@string/close"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_stroke_style_press_bw"
+            android:textColor="@color/black95"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:layout_gravity="end"/>
+        
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="90"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textdescriptionEnd"
+                android:text="@string/leveloneend"
+                android:textColor="@color/black95"
+                android:textSize="20dp"
+                android:fontFamily="@font/love_ya_like_a_sister"
+                android:textStyle="bold"
+                />
+        </ScrollView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_continue"
+            android:background="@drawable/button_stroke_style_press_bw"
+            android:text="@string/textcontinue"
+            android:fontFamily="@font/love_ya_like_a_sister"
+            android:textSize="18dp"
+            android:textColor="@color/black95"/>
+    </LinearLayout>
+
+
+</LinearLayout>

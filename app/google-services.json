@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948072894667",
+    "firebase_url": "https://childmathquiz.firebaseio.com",
+    "project_id": "childmathquiz",
+    "storage_bucket": "childmathquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948072894667:android:d0ec65c386d97156984b4e",
+        "android_client_info": {
+          "package_name": "com.example.math_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948072894667-shmec1jbh7phcicoa9o7d5j6r0bm5csp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.math_game",
+            "certificate_hash": "f9883b88ad08a6304280f6fc069142952214a7c5"
+          }
+        },
+        {
+          "client_id": "948072894667-qqbtppcpksfehqnmpbf9nf725ftuv7db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmhAngolWjWgf2Yu2vI9L-rGwlPe3LRtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948072894667-qqbtppcpksfehqnmpbf9nf725ftuv7db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="levelone">You need to choose a larger number!\nTake your time, think and only then click on the picture with the answer.</string>
+    <string name="leveloneend">"Congratulations, level passed!\n
+        Did you know that 7 is a lucky number? There are 7 days a week, 7 continents, 7 colors of the rainbow, 7 musical notes, and more."</string>
+    <string name="leveltwo">Just simple math! You need to do addition of numbers. Good luck! </string>
+    <string name="leveltwoend">"This is your score!\n
+    Adding one more to one, we write two, but in our mind we still keep three))))</string>
+    <string name="levelthree">Just simple math! You need to do subtraction of numbers. Good luck! </string>
+    <string name="levelthreeend">"This is your score!\n
+     Mathematics is the gymnastics of the mind!))))</string>
+
+    <string name="levelfour">Just simple math! You need to do multiplication of numbers. Good luck! </string>
+    <string name="levelfourend">"This is your score!\n
+        All arts gravitate towards music; all sciences to mathematics.))))</string>
+
+    <string name="levelfive">Just simple math! You need to do division of numbers. Good luck! </string>
+    <string name="levelfiveend">"This is your score!\n
+        Arithmetic is impossible to understand, you have to believe in it!))))</string>
+
+    <string name="levelsix">Final level! All completed operations are collected here. Good luck! </string>
+    <string name="levelsixend">"This is your score!\n
+        Mathematics is the queen of sciences!))))</string>
+
+</resources>
